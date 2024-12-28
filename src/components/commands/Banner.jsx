@@ -17,7 +17,7 @@ export default function Banner() {
   return (
     <div className="w-full">
       <p>Welcome to the terminal! Type 'help' to get started.</p>
-      <pre>{asciiArt}</pre>
+      <pre className="overflow-x-hidden">{asciiArt}</pre>
     </div>
   );
 }
