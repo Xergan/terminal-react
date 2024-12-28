@@ -3,7 +3,7 @@ import { generateTabs } from "../../utils/funcs";
 
 export default function Help() {
   return (
-    <div className="w-full">
+    <div className="w-max">
       <ul>
         <li><span className="text-green-400">help</span> {generateTabs(9)} - Display this help</li>
         <li><span className="text-green-400">clear</span> {generateTabs(8)} - Clear the screen</li>
